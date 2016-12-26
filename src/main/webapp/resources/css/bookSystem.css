@@ -1,0 +1,12 @@
+.container {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.table {
+    table-layout: fixed;
+}
+
+.btn-big {
+    height: 6em;
+}

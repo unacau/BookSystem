@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:custom="http://booksystem.com/facelets" xmlns:a4j="http://richfaces.org/a4j">
+<h:head>
+    <title>Book System</title>
+    <h:outputScript name="js/jquery-3.1.1.js"/>
+    <h:outputScript name="js/bootstrap.js"/>
+    <h:outputStylesheet name="css/bootstrap.css"/>
+    <h:outputStylesheet name="css/bookSystem.css"/>
+
+    <a4j:jsFunction name="bookSelected">
+        <a4j:param converter="javax.faces.Long" assignTo="#{publishBookBean.selectedBookIsbn}"/>
+    </a4j:jsFunction>
+    <a4j:jsFunction name="publisherSelected">
+        <a4j:param assignTo="#{publishBookBean.selectedPublisherName}"/>
+    </a4j:jsFunction>
+</h:head>
+<h:body styleClass="container">
+    <custom:bookSystemHeader sectionText="Publishing book"/>
+    <h:form id="publishForm">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">Available books:</h4>
+            </div>
+            <table id="booksTable" class="panel-body table table-bordered table-hover">
+                <tr>
+                    <th>Title</th>
+                    <th>Authors</th>
+                    <th>Publish year</th>
+                    <th>Publisher</th>
+                </tr>
+                <ui:repeat value="#{publishBookBean.bookList}" var="book">
+                    <tr onclick="bookSelected('#{book.isbn}')" class="clickable-row">
+                        <td>#{book.title}</td>
+                        <td>
+                            <ui:repeat value="#{book.authors}" var="author">
+                                #{author.name} #{author.surname}
+                            </ui:repeat>
+                        </td>
+                        <td>
+                            <h:outputText value="#{book.publishDate}">
+                                <f:convertDateTime type="date" pattern="yyyy"/>
+                            </h:outputText>
+                        </td>
+                        <td>#{book.publisher ne null ? book.publisher.name : '-'}</td>
+                    </tr>
+                </ui:repeat>
+            </table>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">Available publishers:</h4>
+            </div>
+            <table id="publishersTable" class="panel-body table table-bordered table-hover">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Books num</th>
+                    <th>Authors num</th>
+                </tr>
+                <ui:repeat value="#{publishBookBean.publisherList}" var="publisher">
+                    <tr onclick="publisherSelected('#{publisher.name}')" class="clickable-row">
+                        <td>#{publisher.name}</td>
+                        <td>#{publisher.address}</td>
+                        <td>#{publisher.books.size()}</td>
+                        <td>#{publisher.authors.size()}</td>
+                    </tr>
+                </ui:repeat>
+            </table>
+        </div>
+        <h:message for="confirmButton" errorClass="alert alert-danger" infoClass="alert alert-success"
+                   style="display:block"/>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <h:commandButton id="confirmButton" type="submit" value="Confirm"
+                                 action="#{publishBookBean.publishBook()}"
+                                 styleClass="btn btn-default btn-block" reRender="publishForm"/>
+            </div>
+        </div>
+
+        <h:outputScript>
+            $('#booksTable, #publishersTable').on('click', '.clickable-row', function (event) {
+                $(this).addClass('success').siblings().removeClass('success');
+            });
+        </h:outputScript>
+    </h:form>
+    <custom:bookSystemFooter/>
+</h:body>
+</html>

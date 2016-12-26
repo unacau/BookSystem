@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:custom="http://booksystem.com/facelets">
+
+<h:head>
+    <title>Book System</title>
+    <h:outputScript name="js/jquery-3.1.1.js"/>
+    <h:outputScript name="js/bootstrap.js"/>
+    <h:outputStylesheet name="css/bootstrap.css"/>
+    <h:outputStylesheet name="css/bookSystem.css"/>
+</h:head>
+<h:body class="container">
+    <custom:bookSystemHeader sectionText="Home"/>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h:button outcome="contractAuthorPublisher.xhtml" value="Contract author and publisher"
+                          styleClass="btn btn-default btn-lg btn-big btn-block"/>
+                <h:button outcome="publishBook.xhtml" value="Publish book"
+                          styleClass="btn btn-default btn-lg btn-big btn-block"/>
+                <h:button outcome="addBook.xhtml" value="Add book to library"
+                          styleClass="btn btn-default btn-lg btn-big btn-block"/>
+            </div>
+        </div>
+    </div>
+    <custom:bookSystemFooter/>
+</h:body>
+</html>
