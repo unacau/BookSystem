@@ -1,0 +1,2 @@
+0 bug items in 41 classes.
+(neni mozne vygenerovat dokumentaci)

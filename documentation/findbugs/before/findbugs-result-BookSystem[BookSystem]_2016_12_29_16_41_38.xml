@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://findbugs.sourceforge.net/xsl/default.xsl"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1483025991822" analysisTimestamp="1483025989370" release="">
+  <Project projectName="BookSystem[BookSystem]">
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\AuthorService.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\AuthorServiceImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\BookService.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\BookServiceImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\GenericServiceImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\LibraryService.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\LibraryServiceImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\PublisherService.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\PublisherServiceImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\business\Service.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\dao\AuthorDaoImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\dao\BookDaoImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\dao\Dao.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\dao\GenericDaoImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\dao\LibraryDaoImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\dao\PublisherDaoImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\model\Author.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\model\Book.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\model\Library.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\persistence\model\Publisher.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\presentation\AddToLibraryBean.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\presentation\ContractBean.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\presentation\PublishBookBean.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\util\DBFulfillerImpl.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\util\exception\BookSystemException.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\util\exception\business\AuthorServiceException$Reason.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\util\exception\business\AuthorServiceException.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\util\exception\business\BookServiceException$Reason.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\util\exception\business\BookServiceException.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\util\exception\business\PublisherServiceException$Reason.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\util\exception\business\PublisherServiceException.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\classes\fel\si\semestral\util\Resources.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\test-classes\fel\si\semestral\test\business\AddBookToLibraryTest.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\test-classes\fel\si\semestral\test\business\ContractWithPublisherTest.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\test-classes\fel\si\semestral\test\business\PublishBookTest.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\test-classes\fel\si\semestral\test\business\ServiceTest.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\test-classes\fel\si\semestral\test\persistence\dao\AuthorDaoTest.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\test-classes\fel\si\semestral\test\persistence\dao\BookDaoTest.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\test-classes\fel\si\semestral\test\persistence\dao\DaoTest.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\test-classes\fel\si\semestral\test\persistence\dao\LibraryDaoTest.class</Jar>
+    <Jar>D:\nogoltsov\dev\fel\si\BookSystem\target\test-classes\fel\si\semestral\test\persistence\dao\PublisherDaoTest.class</Jar>
+    <AuxClasspathEntry>D:/nogoltsov/dev/fel/si/BookSystem/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:/nogoltsov/dev/fel/si/BookSystem/target/test-classes</AuxClasspathEntry>
+    <SrcDir>D:/nogoltsov/dev/fel/si/BookSystem/src/main/java</SrcDir>
+    <SrcDir>D:/nogoltsov/dev/fel/si/BookSystem/src/main/resources</SrcDir>
+    <SrcDir>D:/nogoltsov/dev/fel/si/BookSystem/src/test/java</SrcDir>
+    <SrcDir>D:/nogoltsov/dev/fel/si/BookSystem/src/test/resources</SrcDir>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="9714cfec2f0b81f9064fdb16183a3171" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>fel.si.semestral.persistence.model.Book.getPublishDate() may expose internal representation by returning Book.publishDate</LongMessage>
+    <Class classname="fel.si.semestral.persistence.model.Book" primary="true">
+      <SourceLine classname="fel.si.semestral.persistence.model.Book" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>In class fel.si.semestral.persistence.model.Book</Message>
+    </Class>
+    <Method classname="fel.si.semestral.persistence.model.Book" name="getPublishDate" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="fel.si.semestral.persistence.model.Book" start="93" end="93" startBytecode="0" endBytecode="46" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java"/>
+      <Message>In method fel.si.semestral.persistence.model.Book.getPublishDate()</Message>
+    </Method>
+    <Field classname="fel.si.semestral.persistence.model.Book" name="publishDate" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="fel.si.semestral.persistence.model.Book" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>Field fel.si.semestral.persistence.model.Book.publishDate</Message>
+    </Field>
+    <SourceLine classname="fel.si.semestral.persistence.model.Book" primary="true" start="93" end="93" startBytecode="4" endBytecode="4" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+      <Message>At Book.java:[line 93]</Message>
+    </SourceLine>
+    <SourceLine classname="fel.si.semestral.persistence.model.Book" primary="true" start="93" end="93" startBytecode="4" endBytecode="4" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+      <Message>At Book.java:[line 93]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="36fce315d437853858fcf716707c6aa9" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new fel.si.semestral.persistence.model.Book(long, Date, String) may expose internal representation by storing an externally mutable object into Book.publishDate</LongMessage>
+    <Class classname="fel.si.semestral.persistence.model.Book" primary="true">
+      <SourceLine classname="fel.si.semestral.persistence.model.Book" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>In class fel.si.semestral.persistence.model.Book</Message>
+    </Class>
+    <Method classname="fel.si.semestral.persistence.model.Book" name="&lt;init&gt;" signature="(JLjava/util/Date;Ljava/lang/String;)V" isStatic="false" primary="true">
+      <SourceLine classname="fel.si.semestral.persistence.model.Book" start="46" end="50" startBytecode="0" endBytecode="108" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java"/>
+      <Message>In method new fel.si.semestral.persistence.model.Book(long, Date, String)</Message>
+    </Method>
+    <Field classname="fel.si.semestral.persistence.model.Book" name="publishDate" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="fel.si.semestral.persistence.model.Book" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>Field fel.si.semestral.persistence.model.Book.publishDate</Message>
+    </Field>
+    <LocalVariable name="publishDate" register="3" pc="11" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named publishDate</Message>
+    </LocalVariable>
+    <SourceLine classname="fel.si.semestral.persistence.model.Book" primary="true" start="48" end="48" startBytecode="11" endBytecode="11" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+      <Message>At Book.java:[line 48]</Message>
+    </SourceLine>
+    <SourceLine classname="fel.si.semestral.persistence.model.Book" primary="true" start="48" end="48" startBytecode="11" endBytecode="11" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+      <Message>At Book.java:[line 48]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="26953b1d79e9d87075ed804febb5b245" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>fel.si.semestral.persistence.model.Book.setPublishDate(Date) may expose internal representation by storing an externally mutable object into Book.publishDate</LongMessage>
+    <Class classname="fel.si.semestral.persistence.model.Book" primary="true">
+      <SourceLine classname="fel.si.semestral.persistence.model.Book" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>In class fel.si.semestral.persistence.model.Book</Message>
+    </Class>
+    <Method classname="fel.si.semestral.persistence.model.Book" name="setPublishDate" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="fel.si.semestral.persistence.model.Book" start="97" end="98" startBytecode="0" endBytecode="61" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java"/>
+      <Message>In method fel.si.semestral.persistence.model.Book.setPublishDate(Date)</Message>
+    </Method>
+    <Field classname="fel.si.semestral.persistence.model.Book" name="publishDate" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="fel.si.semestral.persistence.model.Book" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+        <Message>In Book.java</Message>
+      </SourceLine>
+      <Message>Field fel.si.semestral.persistence.model.Book.publishDate</Message>
+    </Field>
+    <LocalVariable name="publishDate" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named publishDate</Message>
+    </LocalVariable>
+    <SourceLine classname="fel.si.semestral.persistence.model.Book" primary="true" start="97" end="97" startBytecode="2" endBytecode="2" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+      <Message>At Book.java:[line 97]</Message>
+    </SourceLine>
+    <SourceLine classname="fel.si.semestral.persistence.model.Book" primary="true" start="97" end="97" startBytecode="2" endBytecode="2" sourcefile="Book.java" sourcepath="fel/si/semestral/persistence/model/Book.java" relSourcepath="main\java\fel\si\semestral\persistence\model\Book.java">
+      <Message>At Book.java:[line 97]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="2f7dbfd16fd18a3b0e8939a7870aef07" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class fel.si.semestral.presentation.ContractBean defines non-transient non-serializable instance field authorService</LongMessage>
+    <Class classname="fel.si.semestral.presentation.ContractBean" primary="true">
+      <SourceLine classname="fel.si.semestral.presentation.ContractBean" sourcefile="ContractBean.java" sourcepath="fel/si/semestral/presentation/ContractBean.java" relSourcepath="main\java\fel\si\semestral\presentation\ContractBean.java">
+        <Message>In ContractBean.java</Message>
+      </SourceLine>
+      <Message>In class fel.si.semestral.presentation.ContractBean</Message>
+    </Class>
+    <Field classname="fel.si.semestral.presentation.ContractBean" name="authorService" signature="Lfel/si/semestral/business/AuthorService;" isStatic="false" primary="true">
+      <SourceLine classname="fel.si.semestral.presentation.ContractBean" sourcefile="ContractBean.java" sourcepath="fel/si/semestral/presentation/ContractBean.java" relSourcepath="main\java\fel\si\semestral\presentation\ContractBean.java">
+        <Message>In ContractBean.java</Message>
+      </SourceLine>
+      <Message>Field fel.si.semestral.presentation.ContractBean.authorService</Message>
+    </Field>
+    <Type descriptor="Lfel/si/semestral/business/AuthorService;" role="TYPE_FOUND">
+      <SourceLine classname="fel.si.semestral.business.AuthorService" sourcefile="AuthorService.java" sourcepath="fel/si/semestral/business/AuthorService.java" relSourcepath="main\java\fel\si\semestral\business\AuthorService.java">
+        <Message>In AuthorService.java</Message>
+      </SourceLine>
+      <Message>Actual type fel.si.semestral.business.AuthorService</Message>
+    </Type>
+    <SourceLine classname="fel.si.semestral.presentation.ContractBean" sourcefile="ContractBean.java" sourcepath="fel/si/semestral/presentation/ContractBean.java" relSourcepath="main\java\fel\si\semestral\presentation\ContractBean.java" synthetic="true">
+      <Message>In ContractBean.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" instanceHash="8751c2be5e483a3153600dc67ebbbb19" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Non-transient non-serializable instance field in serializable class</ShortMessage>
+    <LongMessage>Class fel.si.semestral.presentation.ContractBean defines non-transient non-serializable instance field publisherService</LongMessage>
+    <Class classname="fel.si.semestral.presentation.ContractBean" primary="true">
+      <SourceLine classname="fel.si.semestral.presentation.ContractBean" sourcefile="ContractBean.java" sourcepath="fel/si/semestral/presentation/ContractBean.java" relSourcepath="main\java\fel\si\semestral\presentation\ContractBean.java">
+        <Message>In ContractBean.java</Message>
+      </SourceLine>
+      <Message>In class fel.si.semestral.presentation.ContractBean</Message>
+    </Class>
+    <Field classname="fel.si.semestral.presentation.ContractBean" name="publisherService" signature="Lfel/si/semestral/business/PublisherService;" isStatic="false" primary="true">
+      <SourceLine classname="fel.si.semestral.presentation.ContractBean" sourcefile="ContractBean.java" sourcepath="fel/si/semestral/presentation/ContractBean.java" relSourcepath="main\java\fel\si\semestral\presentation\ContractBean.java">
+        <Message>In ContractBean.java</Message>
+      </SourceLine>
+      <Message>Field fel.si.semestral.presentation.ContractBean.publisherService</Message>
+    </Field>
+    <Type descriptor="Lfel/si/semestral/business/PublisherService;" role="TYPE_FOUND">
+      <SourceLine classname="fel.si.semestral.business.PublisherService" sourcefile="PublisherService.java" sourcepath="fel/si/semestral/business/PublisherService.java" relSourcepath="main\java\fel\si\semestral\business\PublisherService.java">
+        <Message>In PublisherService.java</Message>
+      </SourceLine>
+      <Message>Actual type fel.si.semestral.business.PublisherService</Message>
+    </Type>
+    <SourceLine classname="fel.si.semestral.presentation.ContractBean" sourcefile="ContractBean.java" sourcepath="fel/si/semestral/presentation/ContractBean.java" relSourcepath="main\java\fel\si\semestral\presentation\ContractBean.java" synthetic="true">
+      <Message>In ContractBean.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugCategory category="MALICIOUS_CODE">
+    <Description>Malicious code vulnerability</Description>
+  </BugCategory>
+  <BugPattern type="EI_EXPOSE_REP2" abbrev="EI2" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by incorporating reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="EI_EXPOSE_REP" abbrev="EI" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by returning reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="SE_BAD_FIELD" abbrev="Se" category="BAD_PRACTICE">
+    <ShortDescription>Non-transient non-serializable instance field in serializable class</ShortDescription>
+    <Details><![CDATA[
+
+<p> This Serializable class defines a non-primitive instance field which is neither transient,
+Serializable, or <code>java.lang.Object</code>, and does not appear to implement
+the <code>Externalizable</code> interface or the
+<code>readObject()</code> and <code>writeObject()</code> methods.&nbsp;
+Objects of this class will not be deserialized correctly if a non-Serializable
+object is stored in this field.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="Se">
+    <Description>Incorrect definition of Serializable class</Description>
+  </BugCode>
+  <BugCode abbrev="EI">
+    <Description>Method returning array may expose internal representation</Description>
+  </BugCode>
+  <BugCode abbrev="EI2">
+    <Description>Storing reference to mutable object</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 29 Dec 2016 16:39:47 +0100" total_classes="41" referenced_classes="102" total_bugs="5" total_size="1047" num_packages="9" java_version="1.8.0_112-release" vm_version="25.112-b2" cpu_seconds="32.33" clock_seconds="109.64" peak_mbytes="401.71" alloc_mbytes="494.94" gc_seconds="0.11" priority_2="5">
+    <FileStats path="fel/si/semestral/business/AuthorService.java" bugCount="0" size="2"/>
+    <FileStats path="fel/si/semestral/business/AuthorServiceImpl.java" bugCount="0" size="34"/>
+    <FileStats path="fel/si/semestral/business/BookService.java" bugCount="0" size="2"/>
+    <FileStats path="fel/si/semestral/business/BookServiceImpl.java" bugCount="0" size="43"/>
+    <FileStats path="fel/si/semestral/business/GenericServiceImpl.java" bugCount="0" size="20"/>
+    <FileStats path="fel/si/semestral/business/LibraryService.java" bugCount="0" size="1"/>
+    <FileStats path="fel/si/semestral/business/LibraryServiceImpl.java" bugCount="0" size="3"/>
+    <FileStats path="fel/si/semestral/business/PublisherService.java" bugCount="0" size="2"/>
+    <FileStats path="fel/si/semestral/business/PublisherServiceImpl.java" bugCount="0" size="44"/>
+    <FileStats path="fel/si/semestral/business/Service.java" bugCount="0" size="7"/>
+    <FileStats path="fel/si/semestral/persistence/dao/AuthorDaoImpl.java" bugCount="0" size="8"/>
+    <FileStats path="fel/si/semestral/persistence/dao/BookDaoImpl.java" bugCount="0" size="8"/>
+    <FileStats path="fel/si/semestral/persistence/dao/Dao.java" bugCount="0" size="7"/>
+    <FileStats path="fel/si/semestral/persistence/dao/GenericDaoImpl.java" bugCount="0" size="25"/>
+    <FileStats path="fel/si/semestral/persistence/dao/LibraryDaoImpl.java" bugCount="0" size="8"/>
+    <FileStats path="fel/si/semestral/persistence/dao/PublisherDaoImpl.java" bugCount="0" size="8"/>
+    <FileStats path="fel/si/semestral/persistence/model/Author.java" bugCount="0" size="76"/>
+    <FileStats path="fel/si/semestral/persistence/model/Book.java" bugCount="3" size="74" bugHash="8c8de4b2b12847118deb830a6e37e3a4"/>
+    <FileStats path="fel/si/semestral/persistence/model/Library.java" bugCount="0" size="42"/>
+    <FileStats path="fel/si/semestral/persistence/model/Publisher.java" bugCount="0" size="53"/>
+    <FileStats path="fel/si/semestral/presentation/AddToLibraryBean.java" bugCount="0" size="39"/>
+    <FileStats path="fel/si/semestral/presentation/ContractBean.java" bugCount="2" size="38" bugHash="82464d2b6f94dce7781b839633175445"/>
+    <FileStats path="fel/si/semestral/presentation/PublishBookBean.java" bugCount="0" size="39"/>
+    <FileStats path="fel/si/semestral/test/business/AddBookToLibraryTest.java" bugCount="0" size="46"/>
+    <FileStats path="fel/si/semestral/test/business/ContractWithPublisherTest.java" bugCount="0" size="38"/>
+    <FileStats path="fel/si/semestral/test/business/PublishBookTest.java" bugCount="0" size="44"/>
+    <FileStats path="fel/si/semestral/test/business/ServiceTest.java" bugCount="0" size="25"/>
+    <FileStats path="fel/si/semestral/test/persistence/dao/AuthorDaoTest.java" bugCount="0" size="34"/>
+    <FileStats path="fel/si/semestral/test/persistence/dao/BookDaoTest.java" bugCount="0" size="32"/>
+    <FileStats path="fel/si/semestral/test/persistence/dao/DaoTest.java" bugCount="0" size="30"/>
+    <FileStats path="fel/si/semestral/test/persistence/dao/LibraryDaoTest.java" bugCount="0" size="42"/>
+    <FileStats path="fel/si/semestral/test/persistence/dao/PublisherDaoTest.java" bugCount="0" size="32"/>
+    <FileStats path="fel/si/semestral/util/DBFulfillerImpl.java" bugCount="0" size="42"/>
+    <FileStats path="fel/si/semestral/util/Resources.java" bugCount="0" size="8"/>
+    <FileStats path="fel/si/semestral/util/exception/BookSystemException.java" bugCount="0" size="4"/>
+    <FileStats path="fel/si/semestral/util/exception/business/AuthorServiceException.java" bugCount="0" size="27"/>
+    <FileStats path="fel/si/semestral/util/exception/business/BookServiceException.java" bugCount="0" size="29"/>
+    <FileStats path="fel/si/semestral/util/exception/business/PublisherServiceException.java" bugCount="0" size="31"/>
+    <PackageStats package="fel.si.semestral.business" total_bugs="0" total_types="10" total_size="158">
+      <ClassStats class="fel.si.semestral.business.AuthorService" sourceFile="AuthorService.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="fel.si.semestral.business.AuthorServiceImpl" sourceFile="AuthorServiceImpl.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="fel.si.semestral.business.BookService" sourceFile="BookService.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="fel.si.semestral.business.BookServiceImpl" sourceFile="BookServiceImpl.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="fel.si.semestral.business.GenericServiceImpl" sourceFile="GenericServiceImpl.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="fel.si.semestral.business.LibraryService" sourceFile="LibraryService.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="fel.si.semestral.business.LibraryServiceImpl" sourceFile="LibraryServiceImpl.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="fel.si.semestral.business.PublisherService" sourceFile="PublisherService.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="fel.si.semestral.business.PublisherServiceImpl" sourceFile="PublisherServiceImpl.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="fel.si.semestral.business.Service" sourceFile="Service.java" interface="true" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fel.si.semestral.persistence.dao" total_bugs="0" total_types="6" total_size="64">
+      <ClassStats class="fel.si.semestral.persistence.dao.AuthorDaoImpl" sourceFile="AuthorDaoImpl.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="fel.si.semestral.persistence.dao.BookDaoImpl" sourceFile="BookDaoImpl.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="fel.si.semestral.persistence.dao.Dao" sourceFile="Dao.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="fel.si.semestral.persistence.dao.GenericDaoImpl" sourceFile="GenericDaoImpl.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="fel.si.semestral.persistence.dao.LibraryDaoImpl" sourceFile="LibraryDaoImpl.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="fel.si.semestral.persistence.dao.PublisherDaoImpl" sourceFile="PublisherDaoImpl.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fel.si.semestral.persistence.model" total_bugs="3" total_types="4" total_size="245" priority_2="3">
+      <ClassStats class="fel.si.semestral.persistence.model.Author" sourceFile="Author.java" interface="false" size="76" bugs="0"/>
+      <ClassStats class="fel.si.semestral.persistence.model.Book" sourceFile="Book.java" interface="false" size="74" bugs="3" priority_2="3"/>
+      <ClassStats class="fel.si.semestral.persistence.model.Library" sourceFile="Library.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="fel.si.semestral.persistence.model.Publisher" sourceFile="Publisher.java" interface="false" size="53" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fel.si.semestral.presentation" total_bugs="2" total_types="3" total_size="116" priority_2="2">
+      <ClassStats class="fel.si.semestral.presentation.AddToLibraryBean" sourceFile="AddToLibraryBean.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="fel.si.semestral.presentation.ContractBean" sourceFile="ContractBean.java" interface="false" size="38" bugs="2" priority_2="2"/>
+      <ClassStats class="fel.si.semestral.presentation.PublishBookBean" sourceFile="PublishBookBean.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fel.si.semestral.test.business" total_bugs="0" total_types="4" total_size="153">
+      <ClassStats class="fel.si.semestral.test.business.AddBookToLibraryTest" sourceFile="AddBookToLibraryTest.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="fel.si.semestral.test.business.ContractWithPublisherTest" sourceFile="ContractWithPublisherTest.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="fel.si.semestral.test.business.PublishBookTest" sourceFile="PublishBookTest.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="fel.si.semestral.test.business.ServiceTest" sourceFile="ServiceTest.java" interface="false" size="25" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fel.si.semestral.test.persistence.dao" total_bugs="0" total_types="5" total_size="170">
+      <ClassStats class="fel.si.semestral.test.persistence.dao.AuthorDaoTest" sourceFile="AuthorDaoTest.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="fel.si.semestral.test.persistence.dao.BookDaoTest" sourceFile="BookDaoTest.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="fel.si.semestral.test.persistence.dao.DaoTest" sourceFile="DaoTest.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="fel.si.semestral.test.persistence.dao.LibraryDaoTest" sourceFile="LibraryDaoTest.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="fel.si.semestral.test.persistence.dao.PublisherDaoTest" sourceFile="PublisherDaoTest.java" interface="false" size="32" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fel.si.semestral.util" total_bugs="0" total_types="2" total_size="50">
+      <ClassStats class="fel.si.semestral.util.DBFulfillerImpl" sourceFile="DBFulfillerImpl.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="fel.si.semestral.util.Resources" sourceFile="Resources.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fel.si.semestral.util.exception" total_bugs="0" total_types="1" total_size="4">
+      <ClassStats class="fel.si.semestral.util.exception.BookSystemException" sourceFile="BookSystemException.java" interface="false" size="4" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="fel.si.semestral.util.exception.business" total_bugs="0" total_types="6" total_size="87">
+      <ClassStats class="fel.si.semestral.util.exception.business.AuthorServiceException" sourceFile="AuthorServiceException.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="fel.si.semestral.util.exception.business.AuthorServiceException$Reason" sourceFile="AuthorServiceException.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="fel.si.semestral.util.exception.business.BookServiceException" sourceFile="BookServiceException.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="fel.si.semestral.util.exception.business.BookServiceException$Reason" sourceFile="BookServiceException.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="fel.si.semestral.util.exception.business.PublisherServiceException" sourceFile="PublisherServiceException.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="fel.si.semestral.util.exception.business.PublisherServiceException$Reason" sourceFile="PublisherServiceException.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="383" invocations="2" avgMicrosecondsPerInvocation="191815" maxMicrosecondsPerInvocation="208534" standardDeviationMircosecondsPerInvocation="16719"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="257" invocations="706" avgMicrosecondsPerInvocation="364" maxMicrosecondsPerInvocation="12498" standardDeviationMircosecondsPerInvocation="931"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="121" invocations="102" avgMicrosecondsPerInvocation="1192" maxMicrosecondsPerInvocation="11764" standardDeviationMircosecondsPerInvocation="2278"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="93" invocations="102" avgMicrosecondsPerInvocation="915" maxMicrosecondsPerInvocation="8610" standardDeviationMircosecondsPerInvocation="1566"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="92" invocations="709" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="8816" standardDeviationMircosecondsPerInvocation="336"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="87" invocations="441" avgMicrosecondsPerInvocation="198" maxMicrosecondsPerInvocation="3614" standardDeviationMircosecondsPerInvocation="348"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="81" invocations="212" avgMicrosecondsPerInvocation="383" maxMicrosecondsPerInvocation="9428" standardDeviationMircosecondsPerInvocation="822"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="76" invocations="216" avgMicrosecondsPerInvocation="355" maxMicrosecondsPerInvocation="6937" standardDeviationMircosecondsPerInvocation="604"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="72" invocations="216" avgMicrosecondsPerInvocation="337" maxMicrosecondsPerInvocation="10858" standardDeviationMircosecondsPerInvocation="815"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="63" invocations="216" avgMicrosecondsPerInvocation="294" maxMicrosecondsPerInvocation="14109" standardDeviationMircosecondsPerInvocation="970"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="61" invocations="217" avgMicrosecondsPerInvocation="281" maxMicrosecondsPerInvocation="12786" standardDeviationMircosecondsPerInvocation="896"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="61" invocations="231" avgMicrosecondsPerInvocation="264" maxMicrosecondsPerInvocation="42095" standardDeviationMircosecondsPerInvocation="2761"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="52" invocations="160" avgMicrosecondsPerInvocation="325" maxMicrosecondsPerInvocation="7318" standardDeviationMircosecondsPerInvocation="630"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="50" invocations="216" avgMicrosecondsPerInvocation="235" maxMicrosecondsPerInvocation="2354" standardDeviationMircosecondsPerInvocation="321"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="45" invocations="161" avgMicrosecondsPerInvocation="280" maxMicrosecondsPerInvocation="18896" standardDeviationMircosecondsPerInvocation="1532"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="40" invocations="102" avgMicrosecondsPerInvocation="397" maxMicrosecondsPerInvocation="5131" standardDeviationMircosecondsPerInvocation="838"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="34" invocations="102" avgMicrosecondsPerInvocation="342" maxMicrosecondsPerInvocation="11368" standardDeviationMircosecondsPerInvocation="1217"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="32" invocations="102" avgMicrosecondsPerInvocation="323" maxMicrosecondsPerInvocation="4971" standardDeviationMircosecondsPerInvocation="789"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="32" invocations="41" avgMicrosecondsPerInvocation="797" maxMicrosecondsPerInvocation="20599" standardDeviationMircosecondsPerInvocation="3159"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="30" invocations="601" avgMicrosecondsPerInvocation="50" maxMicrosecondsPerInvocation="7738" standardDeviationMircosecondsPerInvocation="321"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="26" invocations="102" avgMicrosecondsPerInvocation="259" maxMicrosecondsPerInvocation="2185" standardDeviationMircosecondsPerInvocation="386"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="24" invocations="102" avgMicrosecondsPerInvocation="242" maxMicrosecondsPerInvocation="3163" standardDeviationMircosecondsPerInvocation="451"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="23" invocations="41" avgMicrosecondsPerInvocation="575" maxMicrosecondsPerInvocation="2856" standardDeviationMircosecondsPerInvocation="521"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>FindBugs Report</title>
+<style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+		</style>
+</head>
+<body>
+<h1>FindBugs Report</h1>
+<p>Produced using <a href="http://findbugs.sourceforge.net">FindBugs</a>3.0.1.</p>
+<p>Project: 
+			BookSystem[BookSystem]</p>
+<h2>Metrics</h2>
+<p>1047 lines of code analyzed,
+	in 41 classes, 
+	in 9 packages.</p>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Metric</th>
+<th align="right">Total</th>
+<th align="right">Density*</th>
+</tr>
+<tr class="tablerow0">
+<td>High Priority Warnings</td>
+<td align="right"/>
+<td align="right">NaN</td>
+</tr>
+<tr class="tablerow1">
+<td>Medium Priority Warnings</td>
+<td align="right">5</td>
+<td align="right">4.78</td>
+</tr>
+<tr class="$totalClass">
+<td>
+<b>Total Warnings</b>
+</td>
+<td align="right">
+<b>5</b>
+</td>
+<td align="right">
+<b>4.78</b>
+</td>
+</tr>
+</table>
+<p>
+<i>(* Defects per Thousand lines of non-commenting source statements)</i>
+</p>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Summary</h2>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Warning Type</th>
+<th align="right">Number</th>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</td>
+<td align="right">2</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+</td>
+<td align="right">3</td>
+</tr>
+<tr class="tablerow0">
+<td>
+<b>Total</b>
+</td>
+<td align="right">
+<b>5</b>
+</td>
+</tr>
+</table>
+<p>
+<br/>
+<br/>
+</p>
+<h1>Warnings</h1>
+<p>Click on each warning link to see a full description of the issue, and
+	    details of how to resolve it.</p>
+<h2>
+<a name="Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="2" cellpadding="5">
+<tr class="tableheader">
+<th align="left">Warning</th>
+<th align="left">Priority</th>
+<th align="left">Details</th>
+</tr>
+<tr class="tablerow1">
+<td width="20%" valign="top">
+<a href="#SE_BAD_FIELD">Non-transient non-serializable instance field in serializable class</a>
+</td>
+<td width="10%" valign="top">Medium</td>
+<td width="70%">
+<p>Class fel.si.semestral.presentation.ContractBean defines non-transient non-serializable instance field authorService<br/>
+<br/>
+<br/>In file ContractBean.java,
+					
+						lines 
+						    to <br/>In class fel.si.semestral.presentation.ContractBean<br/>Field fel.si.semestral.presentation.ContractBean.authorService<br/>Actual type fel.si.semestral.business.AuthorService<br/>In ContractBean.java</p>
+</td>
+</tr>
+<tr class="tablerow0">
+<td width="20%" valign="top">
+<a href="#SE_BAD_FIELD">Non-transient non-serializable instance field in serializable class</a>
+</td>
+<td width="10%" valign="top">Medium</td>
+<td width="70%">
+<p>Class fel.si.semestral.presentation.ContractBean defines non-transient non-serializable instance field publisherService<br/>
+<br/>
+<br/>In file ContractBean.java,
+					
+						lines 
+						    to <br/>In class fel.si.semestral.presentation.ContractBean<br/>Field fel.si.semestral.presentation.ContractBean.publisherService<br/>Actual type fel.si.semestral.business.PublisherService<br/>In ContractBean.java</p>
+</td>
+</tr>
+</table>
+<p>
+<br/>
+<br/>
+</p>
+<h2>
+<a name="Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="2" cellpadding="5">
+<tr class="tableheader">
+<th align="left">Warning</th>
+<th align="left">Priority</th>
+<th align="left">Details</th>
+</tr>
+<tr class="tablerow1">
+<td width="20%" valign="top">
+<a href="#EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+</td>
+<td width="10%" valign="top">Medium</td>
+<td width="70%">
+<p>fel.si.semestral.persistence.model.Book.getPublishDate() may expose internal representation by returning Book.publishDate<br/>
+<br/>
+<br/>In file Book.java,
+					
+						line 93<br/>In class fel.si.semestral.persistence.model.Book<br/>In method fel.si.semestral.persistence.model.Book.getPublishDate()<br/>Field fel.si.semestral.persistence.model.Book.publishDate<br/>At Book.java:[line 93]<br/>At Book.java:[line 93]</p>
+</td>
+</tr>
+<tr class="tablerow0">
+<td width="20%" valign="top">
+<a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+</td>
+<td width="10%" valign="top">Medium</td>
+<td width="70%">
+<p>new fel.si.semestral.persistence.model.Book(long, Date, String) may expose internal representation by storing an externally mutable object into Book.publishDate<br/>
+<br/>
+<br/>In file Book.java,
+					
+						line 48<br/>In class fel.si.semestral.persistence.model.Book<br/>In method new fel.si.semestral.persistence.model.Book(long, Date, String)<br/>Field fel.si.semestral.persistence.model.Book.publishDate<br/>Local variable named publishDate<br/>At Book.java:[line 48]<br/>At Book.java:[line 48]</p>
+</td>
+</tr>
+<tr class="tablerow1">
+<td width="20%" valign="top">
+<a href="#EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+</td>
+<td width="10%" valign="top">Medium</td>
+<td width="70%">
+<p>fel.si.semestral.persistence.model.Book.setPublishDate(Date) may expose internal representation by storing an externally mutable object into Book.publishDate<br/>
+<br/>
+<br/>In file Book.java,
+					
+						line 97<br/>In class fel.si.semestral.persistence.model.Book<br/>In method fel.si.semestral.persistence.model.Book.setPublishDate(Date)<br/>Field fel.si.semestral.persistence.model.Book.publishDate<br/>Local variable named publishDate<br/>At Book.java:[line 97]<br/>At Book.java:[line 97]</p>
+</td>
+</tr>
+</table>
+<p>
+<br/>
+<br/>
+</p>
+<p>
+<br/>
+<br/>
+</p>
+<h1>
+<a name="Details">Warning Types</a>
+</h1>
+<h2>
+<a name="EI_EXPOSE_REP">May expose internal representation by returning reference to mutable object</a>
+</h2>
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    
+<p>
+<br/>
+<br/>
+</p>
+<h2>
+<a name="EI_EXPOSE_REP2">May expose internal representation by incorporating reference to mutable object</a>
+</h2>
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    
+<p>
+<br/>
+<br/>
+</p>
+<h2>
+<a name="SE_BAD_FIELD">Non-transient non-serializable instance field in serializable class</a>
+</h2>
+
+<p> This Serializable class defines a non-primitive instance field which is neither transient,
+Serializable, or <code>java.lang.Object</code>, and does not appear to implement
+the <code>Externalizable</code> interface or the
+<code>readObject()</code> and <code>writeObject()</code> methods.&nbsp;
+Objects of this class will not be deserialized correctly if a non-Serializable
+object is stored in this field.</p>
+
+    
+<p>
+<br/>
+<br/>
+</p>
+</body>
+</html>
