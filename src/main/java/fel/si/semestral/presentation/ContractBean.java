@@ -21,7 +21,7 @@ import java.util.List;
  */
 @ManagedBean
 @ViewScoped
-public class ContractBean implements Serializable {
+public class ContractBean {
 
     @Inject
     private AuthorService authorService;

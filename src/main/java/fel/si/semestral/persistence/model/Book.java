@@ -45,7 +45,7 @@ public class Book implements Serializable {
 
     public Book(long isbn, Date publishDate, String title) {
         this.isbn = isbn;
-        this.publishDate = publishDate;
+        this.publishDate = new Date(publishDate.getTime());
         this.title = title;
     }
 
@@ -90,11 +90,11 @@ public class Book implements Serializable {
     }
 
     public Date getPublishDate() {
-        return publishDate;
+        return new Date(publishDate.getTime());
     }
 
     public void setPublishDate(Date publishDate) {
-        this.publishDate = publishDate;
+        this.publishDate = new Date(publishDate.getTime());
     }
 
     public String getTitle() {
